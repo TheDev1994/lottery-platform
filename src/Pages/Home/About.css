@@ -1,0 +1,83 @@
+.sectionabout {
+  padding: 0px 30px;
+}
+
+.wrappercard2 {
+box-shadow: 6px 6px 6px 6px #00fb09;
+display: grid;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-radius: 25px;
+max-height: 100%;
+padding: 10px;
+transition: all 0.2s ease-in-out;
+}
+
+.rarity-content {
+font-family: Bahnschrift;
+font-size: 36px;
+padding: 30px;
+color: white;
+font-style: bold;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.feature-content3 {
+font-family: Bahnschrift;
+padding-top: 30px;
+font-size: 20px;
+color: white;
+font-style: bold;
+letter-spacing: 0em;
+text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .rarity-content {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  color: black;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .rarity-content {
+  font-family: Bahnschrift;
+  font-size: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .rarity-content {
+  font-family: Bahnschrift;
+  font-size: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+}
+
+@media (max-width: 300px), (max-width: 400px), (max-width: 500px) {
+  .rarity-content {
+  font-family: Bahnschrift;
+  font-size: 18px;
+  font-style: bold;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+}
+
+.subrarity-content {
+font-family: Bahnschrift;
+padding: 30px;
+font-size: 18px;
+color: white;
+font-style: bold;
+letter-spacing: 0em;
+text-align: justify;
+}

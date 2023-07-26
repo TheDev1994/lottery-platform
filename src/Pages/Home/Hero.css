@@ -1,0 +1,286 @@
+.featureheader {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 3.75rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sociallogo {
+  width: 30px;
+  height: 30px;
+}
+
+.featurecontenthero {
+  font-size: 45px;
+  color: white;
+  font-weight: 1.5rem;
+  margin-top: 50px;
+  text-shadow: 2px 2px 2px 2px #00fb09;
+}
+
+.subfeaturecontenthero {
+font-family: Bahnschrift;
+font-size: 28px;
+color: white;
+font-style: bold;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.feature-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn2 {
+    border-radius: 15px;
+    margin: 5px;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-weight: 600;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border-style: solid;
+    box-shadow: 0px 6px 6px rgb(76,67,241);
+}
+
+.featurebtngroup {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  border-radius: 15px;
+  color: pink;
+}
+
+.feature-btn-group button {
+  border-radius: 24px !important;
+  background-color: transparent;
+  border: 2px solid #ff4cb5 !important;
+  padding: 9px 35px;
+}
+
+.feature-btn-group button:hover {
+  background-color: #ff4cb5;
+}
+
+.feature-btn-group button:focus {
+  background-color: transparent;
+}
+
+.feature-btn-group .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal-content {
+  background: #121212;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(0,0,0,0);
+}
+
+.modal-header button {
+  background-color: transparent;
+  border: none;
+}
+
+.modal1 {
+  border-radius: 50px;
+}
+
+.modal-header button span {
+  color: #000;
+  font-size: 2rem;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer button {
+  border-radius: 24px !important;
+  background-color: transparent;
+  border: 2px solid #ff4cb5 !important;
+  padding: 9px 35px;
+  font-size: 0.9rem;
+}
+
+.modal-footer button:hover {
+  background-color: #ff4cb5;
+}
+
+.modal-footer .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.mint-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mint-number button {
+  background-color: transparent;
+  color: #000;
+  font-size: 3rem;
+  border: none;
+}
+
+.mint-number label {
+  font-size: 3rem;
+}
+
+.form-control{
+  width: 45%;
+  height:48px;
+  margin: 0 auto;
+  padding: 3px 4px 2px 4px;
+  background-color:#8D93B5;
+  border: 1px solid black;
+  border-radius:  50px;
+}
+.button-71{
+  width: 36%;
+  height:35px;
+  margin: 0 auto;
+  padding: 3px 4px 2px 4px;
+  background: linear-gradient(90.06deg, #9CF6D4 0.02%, #FFC0FC 22.91%, #FFC578 43.73%, #BFB0FF 66.1%, #FFBFE0 82.75%, #71B3FF 99.92%);
+  border: 1px solid black;
+  border-radius:  50px;
+
+}
+
+.buttoncolor {
+  background: linear-gradient(90.06deg, #9CF6D4 0.02%, #FFC0FC 22.91%, #FFC578 43.73%, #BFB0FF 66.1%, #FFBFE0 82.75%, #71B3FF 99.92%);
+border-radius: 20px;
+}
+
+
+.block {
+  background: url("https://i.ibb.co/198yrjt/bgleft.png");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+  display: block;
+  width: auto;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+  .block {
+    background: url("https://i.ibb.co/198yrjt/bgleft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .block {
+    background: url("https://i.ibb.co/ZgR7XLJ/bgleft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .block {
+    background: url("https://i.ibb.co/ZgR7XLJ/bgleft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .block {
+    background: url("https://i.ibb.co/ZgR7XLJ/bgleft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+
+.block2 {
+  background: blue;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: auto;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.wrappericonw {
+height: 400px;
+width: 400px;
+}
+
+.wrapperw {
+max-width: 100%;
+display: flex;
+grid-auto-flow: column;
+grid-auto-columns: repeat(1, 2fr);
+position: relative;
+flex-wrap: wrap;
+background-color: transparent;
+
+/* Screen larger than 600px? 2 column */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+}
+
+.wrappercard1 {
+background: transparent;
+align-items: left;
+max-height: 280px;
+}
+
+.wrappercard2 {
+background: transparent;
+align-items: right;
+max-height: 280px;
+}

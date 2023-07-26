@@ -1,0 +1,142 @@
+.join {
+  background: url("https://i.ibb.co/88QzM49/Bamboo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container {
+  min-height: auto;
+  color: transparent;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero2 {
+  height: auto;
+  border-radius: 50px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin: 30px;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: pink;
+  box-shadow: 0px 6px 6px #00fb09);
+  align-items: baseline;
+}
+
+
+.herotitle {
+  font-family: Bahnschrift;
+  color: white;
+  font-size: 35px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.imgjoin {
+  width: 424px;
+  height: 501px;
+  left: 1196px;
+  top: 4882px;
+align-items: bottom;
+}
+
+.imgjoin1 {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+}
+
+.imgjoin2 {
+  width: 400px;
+  height: 400px;
+}
+
+.SocialMedia2 {
+  text-align: center;
+  color: black;
+ width: 250px;
+ height: 50px;
+ background: blue;
+ border-radius: 100px;
+}
+
+.SocialMedia3 {
+ text-align: center;
+ color: black;
+ width: 150px;
+ height: 30px;
+ padding-bottom: 10px;
+ background: blue;
+ border-radius: 100px;
+}
+
+.btn {
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 6px 6px rgb(76,67,241);
+}
+
+.btn2 {
+    border-radius: 15px;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border-style: solid;
+    box-shadow: 0px 6px 6px rgb(76,67,241);
+}
+
+.btn3 {
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    background: white;
+    border-style: solid;
+    box-shadow: 0px 6px 6px rgb(76,67,241);
+}
+
+.footer-main {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.com-name {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.terms-cond {
+  color: #ff4cb5;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,27 @@
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.com-name {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.terms-cond {
+  color: #ff4cb5;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
